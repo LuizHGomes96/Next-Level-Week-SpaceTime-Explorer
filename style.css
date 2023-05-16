@@ -40,3 +40,8 @@ body {
     color: #bebebf;
     line-height: 28px;
 }
+
+a {
+    text-decoration: none;
+    color: #eaeaea;
+}
