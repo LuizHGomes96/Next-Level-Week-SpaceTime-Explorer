@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121215;
+    color: #eaeaea;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.container small {
+    color: #bebebf;
+    font-size: 12px;
+}
+
+.container h1 {
+    font-size: 32px;
+}
+
+.container img {
+    width: 70%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #bebebf;
+    line-height: 28px;
+}
